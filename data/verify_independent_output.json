@@ -1,0 +1,145 @@
+{
+ "rows_111321": {
+  "mine": 111321,
+  "stats_json": 111321,
+  "pass": true
+ },
+ "electrical_52534": {
+  "mine": 52534,
+  "stats_json": 52534,
+  "pass": true
+ },
+ "plumbing_27469": {
+  "mine": 27469,
+  "stats_json": 27469,
+  "pass": true
+ },
+ "gas_mech_31318": {
+  "mine": 31318,
+  "stats_json": 31318,
+  "pass": true
+ },
+ "dated_107213": {
+  "mine": 107213,
+  "stats_json": 107213,
+  "pass": true
+ },
+ "negative_3": {
+  "mine": 3,
+  "stats_json": 3,
+  "pass": true
+ },
+ "same_day_93345": {
+  "mine": 93345,
+  "stats_json": 93345,
+  "pass": true
+ },
+ "same_day_pct_87_1": {
+  "mine": 87.1,
+  "stats_json": 87.1,
+  "pass": true
+ },
+ "median_lag_0": {
+  "mine": 0.0,
+  "stats_json": 0.0,
+  "pass": true
+ },
+ "median_positive_lag_2": {
+  "mine": 2.0,
+  "stats_json": 2.0,
+  "pass": true
+ },
+ "sameday_Electrical": {
+  "mine": 89.1,
+  "stats_json": 89.1,
+  "pass": true
+ },
+ "sameday_Plumbing": {
+  "mine": 92.6,
+  "stats_json": 92.6,
+  "pass": true
+ },
+ "sameday_Gas/Mechanical": {
+  "mine": 78.7,
+  "stats_json": 78.7,
+  "pass": true
+ },
+ "district19_6565": {
+  "mine": 6565,
+  "stats_json": 6565,
+  "pass": true
+ },
+ "district_top_share_5_9": {
+  "mine": 5.9,
+  "stats_json": 5.9,
+  "pass": true
+ },
+ "districts_35": {
+  "mine": 35,
+  "stats_json": 35,
+  "pass": true
+ },
+ "median_district_3037": {
+  "mine": 3037.0,
+  "stats_json": 3037.0,
+  "pass": true
+ },
+ "service_family_22701": {
+  "mine": 22701,
+  "stats_json": 22701,
+  "pass": true
+ },
+ "service_family_pct_43_2": {
+  "mine": 43.2,
+  "stats_json": 43.2,
+  "pass": true
+ },
+ "value_positive_104497": {
+  "mine": 104497,
+  "stats_json": 104497,
+  "pass": true
+ },
+ "median_value_6841": {
+  "mine": 6841.0,
+  "stats_json": 6841.0,
+  "pass": true
+ },
+ "megaproject_parcels_141": {
+  "mine": 141,
+  "stats_json": 141,
+  "pass": true
+ },
+ "megaproject_d19_117": {
+  "mine": 117,
+  "stats_json": 117,
+  "pass": true
+ },
+ "entered_2024_37164": {
+  "mine": 37164,
+  "stats_json": 37164,
+  "pass": true
+ },
+ "entered_2025_35083": {
+  "mine": 35083,
+  "stats_json": 35083,
+  "pass": true
+ },
+ "live_count_matches_pull": {
+  "mine": 111321,
+  "stats_json": 111321,
+  "pass": true
+ },
+ "live_trade_counts_match": {
+  "mine": {
+   "Electrical": 52534,
+   "Gas/Mechanical": 31318,
+   "Plumbing": 27469
+  },
+  "stats_json": {
+   "Gas/Mechanical": 31318,
+   "Plumbing": 27469,
+   "Electrical": 52534
+  },
+  "pass": true
+ }
+}

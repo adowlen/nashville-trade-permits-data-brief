@@ -1,0 +1,40 @@
+{
+ "ELECT SERVICE RELEASE": {
+  "n": 14064,
+  "on_building_parcel_pct": 76.1,
+  "purpose_NEW_pct": 45.6
+ },
+ "ELECT OUTAGE AND RECONNECT": {
+  "n": 4904,
+  "on_building_parcel_pct": 25.6,
+  "purpose_NEW_pct": 13.4
+ },
+ "ELECT EMERGENCY RECONNECT": {
+  "n": 2863,
+  "on_building_parcel_pct": 9.4,
+  "purpose_NEW_pct": 9.8
+ },
+ "ELECT SERVICE RECONNECT": {
+  "n": 870,
+  "on_building_parcel_pct": 35.5,
+  "purpose_NEW_pct": 14.3
+ },
+ "Full Electrical Permit": {
+  "n": 26385,
+  "on_building_parcel_pct": 78.9,
+  "purpose_NEW_pct": 44.2
+ },
+ "Temporary Elec Service": {
+  "n": 3144,
+  "on_building_parcel_pct": 85.5,
+  "purpose_NEW_pct": 45.9
+ },
+ "reconnects_combined": {
+  "n": 8637,
+  "on_building_parcel_range_pct": [
+   25.6,
+   9.4,
+   35.5
+  ]
+ }
+}

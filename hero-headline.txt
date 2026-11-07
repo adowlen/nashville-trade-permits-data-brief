@@ -1,0 +1,2 @@
+87.1% of Nashville's dated trade permits were issued the same day they were entered (93,345 of 107,210 dated, non-negative gaps)
+Source line: Nashville Trade Permits - 111,321 entered Oct 2023 to Oct 2026 | Machine Readable

@@ -1,0 +1,19 @@
+subtype,permits,permits_dated_nonneg,same_day_pct,median_lag_days
+Gas / Mech Permit (Up To 750 Btu),1700,1565,88.8,0
+Plumbing Permit,27422,26818,92.6,0.0
+Gas / Mech Permit,20594,19956,89.9,0.0
+Full Electrical Permit,26385,25200,89.2,0.0
+ELECT SERVICE RELEASE,14064,13756,95.1,0.0
+ELECT SERVICE RECONNECT,870,669,62.9,0
+Gas / Mech Unit Change Out,8065,7523,46.0,1
+ELECT OUTAGE AND RECONNECT,4904,4728,71.6,0.0
+"Elec. Hvac, Motors, Generator, & Heat",96,44,93.2,0.0
+ELECT EMERGENCY RECONNECT,2863,2849,99.5,0
+Temporary Elec Service,3144,3021,88.5,0
+Gas / Mech Permit (Up To 1500 Btu),953,901,86.6,0
+"Plumbing Permit - Water, Sewer Repair",19,13,69.2,0
+ELECT PHOTOVOLTAIC - RESIDENTIAL,114,102,2.9,15.0
+ELECT INSTALL EQUIPMENT/CONVEY BELTS,41,3,0.0,40
+ELECT PHOTOVOLTAIC - COMMERCIAL,51,41,0.0,13
+Electical Low Voltage Only,1,1,100.0,0
+"Underground Elec, Plum & Gas/Mech Permit",35,20,95.0,0.0

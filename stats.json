@@ -1,0 +1,545 @@
+{
+  "dataset": "Nashville Trade Permits (Trade_Permits_View, layer 0, hubNashville / Metro Nashville open data)",
+  "snapshot_date": "2026-11-06",
+  "rows": 111321,
+  "unit": "one row = one trade permit record as served by the view; the view's own entry dates span 2023-10-12 to 2026-10-16 (1,101 days inclusive) on the 2026-11-06 pull",
+  "entered_range": [
+    "2023-10-12",
+    "2026-10-16"
+  ],
+  "trade_counter": {
+    "Gas/Mechanical": 31318,
+    "Plumbing": 27469,
+    "Electrical": 52534
+  },
+  "trade_share_pct": {
+    "Gas/Mechanical": 28.1,
+    "Plumbing": 24.7,
+    "Electrical": 47.2
+  },
+  "type_counter": {
+    "Gas / Mech Up To 750 BTUs - AC": 1700,
+    "Codes Plumbing Permit": 27469,
+    "Gas / Mech Permit - VC MC": 20600,
+    "Electrical Permit": 52272,
+    "Gas/Mechanical Unit Change Out ONLY": 8063,
+    "Electrical HVAC Permit": 96,
+    "Gas / Mech Up To 1500 BTUs - HC": 953,
+    "Electrical Photovoltaic Permit": 165,
+    "Gas / Mech Replacement - HC MC VC": 2,
+    "Electrical Low Voltage Permit": 1
+  },
+  "subtype_counter": {
+    "Gas / Mech Permit (Up To 750 Btu)": 1700,
+    "Plumbing Permit": 27422,
+    "Gas / Mech Permit": 20594,
+    "Full Electrical Permit": 26385,
+    "ELECT SERVICE RELEASE": 14064,
+    "ELECT SERVICE RECONNECT": 870,
+    "Gas / Mech Unit Change Out": 8065,
+    "ELECT OUTAGE AND RECONNECT": 4904,
+    "Elec. Hvac, Motors, Generator, & Heat": 96,
+    "ELECT EMERGENCY RECONNECT": 2863,
+    "Temporary Elec Service": 3144,
+    "Gas / Mech Permit (Up To 1500 Btu)": 953,
+    "Plumbing Permit - Water, Sewer Repair": 19,
+    "ELECT PHOTOVOLTAIC - RESIDENTIAL": 114,
+    "ELECT INSTALL EQUIPMENT/CONVEY BELTS": 41,
+    "ELECT PHOTOVOLTAIC - COMMERCIAL": 51,
+    "Electical Low Voltage Only": 1,
+    "Underground Elec, Plum & Gas/Mech Permit": 35
+  },
+  "status_counter": {
+    "CANCELLED": 2351,
+    "EXPIRED": 6640,
+    "ISSUED": 19278,
+    "VOID": 91,
+    "DONE": 81662,
+    "REFUNDED": 283,
+    "HOLD": 29,
+    "OK TO PAY": 299,
+    "REJECTED": 674,
+    "CHANCERY": 1,
+    "OPEN": 13
+  },
+  "with_issued_date": 107213,
+  "without_issued_date_by_status": {
+    "CANCELLED": 417,
+    "EXPIRED": 2693,
+    "DONE": 2,
+    "REFUNDED": 4,
+    "OK TO PAY": 298,
+    "VOID": 2,
+    "HOLD": 5,
+    "REJECTED": 674,
+    "OPEN": 13
+  },
+  "lag": {
+    "n_both_dates": 107213,
+    "negative_n": 3,
+    "n_nonneg": 107210,
+    "same_day_n": 93345,
+    "same_day_pct": 87.1,
+    "median_days": 0.0,
+    "median_days_if_positive": 2,
+    "p90_days": 1,
+    "max_days": 443
+  },
+  "lag_buckets": {
+    "0": {
+      "n": 93345,
+      "pct": 87.1
+    },
+    "1": {
+      "n": 6373,
+      "pct": 5.9
+    },
+    "2-7": {
+      "n": 5245,
+      "pct": 4.9
+    },
+    "8-30": {
+      "n": 1659,
+      "pct": 1.5
+    },
+    "31-90": {
+      "n": 479,
+      "pct": 0.4
+    },
+    "91+": {
+      "n": 109,
+      "pct": 0.1
+    }
+  },
+  "lag_by_trade": {
+    "Gas/Mechanical": {
+      "n": 29946,
+      "same_day_pct": 78.7,
+      "median_days": 0.0,
+      "max_days": 443
+    },
+    "Plumbing": {
+      "n": 26849,
+      "same_day_pct": 92.6,
+      "median_days": 0,
+      "max_days": 312
+    },
+    "Electrical": {
+      "n": 50415,
+      "same_day_pct": 89.1,
+      "median_days": 0,
+      "max_days": 342
+    }
+  },
+  "lag_by_subtype_top": {
+    "Gas / Mech Permit (Up To 750 Btu)": {
+      "n": 1565,
+      "same_day_pct": 88.8,
+      "median_days": 0,
+      "max_days": 113
+    },
+    "Plumbing Permit": {
+      "n": 26818,
+      "same_day_pct": 92.6,
+      "median_days": 0.0,
+      "max_days": 312
+    },
+    "Gas / Mech Permit": {
+      "n": 19956,
+      "same_day_pct": 89.9,
+      "median_days": 0.0,
+      "max_days": 443
+    },
+    "Full Electrical Permit": {
+      "n": 25200,
+      "same_day_pct": 89.2,
+      "median_days": 0.0,
+      "max_days": 323
+    },
+    "ELECT SERVICE RELEASE": {
+      "n": 13756,
+      "same_day_pct": 95.1,
+      "median_days": 0.0,
+      "max_days": 296
+    },
+    "ELECT SERVICE RECONNECT": {
+      "n": 669,
+      "same_day_pct": 62.9,
+      "median_days": 0,
+      "max_days": 77
+    },
+    "Gas / Mech Unit Change Out": {
+      "n": 7523,
+      "same_day_pct": 46.0,
+      "median_days": 1,
+      "max_days": 178
+    },
+    "ELECT OUTAGE AND RECONNECT": {
+      "n": 4728,
+      "same_day_pct": 71.6,
+      "median_days": 0.0,
+      "max_days": 139
+    },
+    "Elec. Hvac, Motors, Generator, & Heat": {
+      "n": 44,
+      "same_day_pct": 93.2,
+      "median_days": 0.0,
+      "max_days": 9
+    },
+    "ELECT EMERGENCY RECONNECT": {
+      "n": 2849,
+      "same_day_pct": 99.5,
+      "median_days": 0,
+      "max_days": 63
+    },
+    "Temporary Elec Service": {
+      "n": 3021,
+      "same_day_pct": 88.5,
+      "median_days": 0,
+      "max_days": 210
+    },
+    "Gas / Mech Permit (Up To 1500 Btu)": {
+      "n": 901,
+      "same_day_pct": 86.6,
+      "median_days": 0,
+      "max_days": 101
+    },
+    "Plumbing Permit - Water, Sewer Repair": {
+      "n": 13,
+      "same_day_pct": 69.2,
+      "median_days": 0,
+      "max_days": 3
+    },
+    "ELECT PHOTOVOLTAIC - RESIDENTIAL": {
+      "n": 102,
+      "same_day_pct": 2.9,
+      "median_days": 15.0,
+      "max_days": 342
+    },
+    "ELECT INSTALL EQUIPMENT/CONVEY BELTS": {
+      "n": 3,
+      "same_day_pct": 0.0,
+      "median_days": 40,
+      "max_days": 55
+    },
+    "ELECT PHOTOVOLTAIC - COMMERCIAL": {
+      "n": 41,
+      "same_day_pct": 0.0,
+      "median_days": 13,
+      "max_days": 99
+    },
+    "Electical Low Voltage Only": {
+      "n": 1,
+      "same_day_pct": 100.0,
+      "median_days": 0,
+      "max_days": 0
+    },
+    "Underground Elec, Plum & Gas/Mech Permit": {
+      "n": 20,
+      "same_day_pct": 95.0,
+      "median_days": 0.0,
+      "max_days": 12
+    }
+  },
+  "lag_by_entered_year": {
+    "2024": {
+      "n": 35984,
+      "same_day_pct": 87.0,
+      "median_days": 0.0,
+      "max_days": 385
+    },
+    "2025": {
+      "n": 33851,
+      "same_day_pct": 87.1,
+      "median_days": 0,
+      "max_days": 443
+    },
+    "2026": {
+      "n": 29604,
+      "same_day_pct": 86.9,
+      "median_days": 0.0,
+      "max_days": 178
+    }
+  },
+  "entered_by_year": {
+    "2023": 8016,
+    "2024": 37164,
+    "2025": 35083,
+    "2026": 31058
+  },
+  "entered_per_day_full_years": {
+    "2024": 102,
+    "2025": 96
+  },
+  "entered_per_day_window": 101,
+  "electrical_service_family": {
+    "n": 22701,
+    "of_electrical": 52534,
+    "pct_of_electrical": 43.2,
+    "by_subtype": {
+      "ELECT SERVICE RELEASE": 14064,
+      "ELECT SERVICE RECONNECT": 870,
+      "ELECT OUTAGE AND RECONNECT": 4904,
+      "ELECT EMERGENCY RECONNECT": 2863
+    },
+    "full_electrical_n": 26385,
+    "temp_service_n": 3144
+  },
+  "district_known_rows": 110672,
+  "district_unknown_rows": 649,
+  "district_top10": [
+    {
+      "district": 19,
+      "permits": 6565,
+      "share_pct": 5.9
+    },
+    {
+      "district": 2,
+      "permits": 5935,
+      "share_pct": 5.4
+    },
+    {
+      "district": 5,
+      "permits": 5712,
+      "share_pct": 5.2
+    },
+    {
+      "district": 25,
+      "permits": 5201,
+      "share_pct": 4.7
+    },
+    {
+      "district": 17,
+      "permits": 5074,
+      "share_pct": 4.6
+    },
+    {
+      "district": 6,
+      "permits": 5005,
+      "share_pct": 4.5
+    },
+    {
+      "district": 20,
+      "permits": 4574,
+      "share_pct": 4.1
+    },
+    {
+      "district": 24,
+      "permits": 4500,
+      "share_pct": 4.1
+    },
+    {
+      "district": 23,
+      "permits": 4403,
+      "share_pct": 4.0
+    },
+    {
+      "district": 34,
+      "permits": 4335,
+      "share_pct": 3.9
+    }
+  ],
+  "district_bottom5": [
+    {
+      "district": 13,
+      "permits": 1260
+    },
+    {
+      "district": 28,
+      "permits": 1235
+    },
+    {
+      "district": 27,
+      "permits": 1103
+    },
+    {
+      "district": 30,
+      "permits": 954
+    },
+    {
+      "district": 29,
+      "permits": 801
+    }
+  ],
+  "districts_present": 35,
+  "median_district_permits": 3037,
+  "top_district_share_pct": 5.9,
+  "top_to_median_ratio": 2.2,
+  "value": {
+    "positive_n": 104497,
+    "positive_pct": 93.9,
+    "zero_n": 6822,
+    "null_n": 2,
+    "median_positive": 6841.0,
+    "exactly_5000_n": 8547,
+    "note": "Contract_Value repeats the parent project's stated value across that project's trade permits (19,625 rows repeat a (parcel, value) pair); values are never summed in this brief"
+  },
+  "value_by_trade": {
+    "Gas/Mechanical": {
+      "rows": 31318,
+      "positive_n": 30019,
+      "positive_pct": 95.9,
+      "median_positive": 10605.0
+    },
+    "Plumbing": {
+      "rows": 27469,
+      "positive_n": 25951,
+      "positive_pct": 94.5,
+      "median_positive": 5000.0
+    },
+    "Electrical": {
+      "rows": 52534,
+      "positive_n": 48527,
+      "positive_pct": 92.4,
+      "median_positive": 5000.0
+    }
+  },
+  "megaproject_parcels": {
+    "threshold": 10000000,
+    "distinct_parcels": 141,
+    "in_district19": 117,
+    "pct_in_district19": 83.0,
+    "permits_carrying_10m_plus": 1114,
+    "permits_carrying_10m_plus_real_parcels": 1113,
+    "by_district_top": [
+      [
+        19,
+        117
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        18,
+        2
+      ],
+      [
+        25,
+        2
+      ],
+      [
+        34,
+        2
+      ],
+      [
+        17,
+        2
+      ]
+    ]
+  },
+  "parcels": {
+    "rows_with_parcel_field": 111321,
+    "right_of_way_rows": 626,
+    "distinct_real_parcels": 34728,
+    "parcels_with_2plus_permits": 20281
+  },
+  "parcel_join": {
+    "trade_permits_with_real_parcel": 110695,
+    "trade_permits_on_building_parcel": 75463,
+    "trade_permits_on_building_parcel_pct": 68.2,
+    "distinct_trade_parcels": 34728,
+    "distinct_building_parcels": 20851,
+    "overlap_parcels": 15341,
+    "overlap_pct_of_trade_parcels": 44.2,
+    "overlap_pct_of_building_parcels": 73.6
+  },
+  "service_family_detail": {
+    "ELECT SERVICE RELEASE": {
+      "n": 14064,
+      "on_building_parcel_pct": 76.1,
+      "purpose_NEW_pct": 45.6
+    },
+    "ELECT OUTAGE AND RECONNECT": {
+      "n": 4904,
+      "on_building_parcel_pct": 25.6,
+      "purpose_NEW_pct": 13.4
+    },
+    "ELECT EMERGENCY RECONNECT": {
+      "n": 2863,
+      "on_building_parcel_pct": 9.4,
+      "purpose_NEW_pct": 9.8
+    },
+    "ELECT SERVICE RECONNECT": {
+      "n": 870,
+      "on_building_parcel_pct": 35.5,
+      "purpose_NEW_pct": 14.3
+    },
+    "Full Electrical Permit": {
+      "n": 26385,
+      "on_building_parcel_pct": 78.9,
+      "purpose_NEW_pct": 44.2
+    },
+    "Temporary Elec Service": {
+      "n": 3144,
+      "on_building_parcel_pct": 85.5,
+      "purpose_NEW_pct": 45.9
+    },
+    "reconnects_combined": {
+      "n": 8637,
+      "on_building_parcel_range_pct": [
+        25.6,
+        9.4,
+        35.5
+      ]
+    }
+  },
+  "zip_top10": [
+    {
+      "zip": "37207",
+      "permits": 10625,
+      "share_pct": 9.5
+    },
+    {
+      "zip": "37209",
+      "permits": 9406,
+      "share_pct": 8.4
+    },
+    {
+      "zip": "37013",
+      "permits": 8396,
+      "share_pct": 7.5
+    },
+    {
+      "zip": "37203",
+      "permits": 6944,
+      "share_pct": 6.2
+    },
+    {
+      "zip": "37211",
+      "permits": 6233,
+      "share_pct": 5.6
+    },
+    {
+      "zip": "37206",
+      "permits": 6123,
+      "share_pct": 5.5
+    },
+    {
+      "zip": "37215",
+      "permits": 6114,
+      "share_pct": 5.5
+    },
+    {
+      "zip": "37076",
+      "permits": 5678,
+      "share_pct": 5.1
+    },
+    {
+      "zip": "37205",
+      "permits": 5567,
+      "share_pct": 5.0
+    },
+    {
+      "zip": "37115",
+      "permits": 5505,
+      "share_pct": 4.9
+    }
+  ],
+  "comparison": {
+    "building_permits_issued_rows": 29651,
+    "building_median_wait_days": 29,
+    "building_window": "issue dates 2023-10-30 to 2026-11-02, layer from the Machine Readable brief of 2026-11-03",
+    "trade_to_building_ratio": 3.75
+  }
+}

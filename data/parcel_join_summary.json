@@ -1,0 +1,10 @@
+{
+ "trade_permits_with_real_parcel": 110695,
+ "trade_permits_on_building_parcel": 75463,
+ "trade_permits_on_building_parcel_pct": 68.2,
+ "distinct_trade_parcels": 34728,
+ "distinct_building_parcels": 20851,
+ "overlap_parcels": 15341,
+ "overlap_pct_of_trade_parcels": 44.2,
+ "overlap_pct_of_building_parcels": 73.6
+}
